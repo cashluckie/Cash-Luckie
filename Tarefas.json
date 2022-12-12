@@ -6,4 +6,22 @@
 "Id_Tarefa":"444",
 "Link_Tarefa":"https://youtu.be/iW51mwEbRsk",
 "Timer_Tarefa":"10000"
+},
+{
+"Titulo_Tarefa":"Vídeo YouTube",
+"Descricao_Tarefa":"Assista esse vídeo por 60s e ganhe 600 pontos!",
+"Pontos_Tarefa":"600",
+"Imagem_Tarefa":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png",
+"Id_Tarefa":"445",
+"Link_Tarefa":"https://youtu.be/iW51mwEbRsk",
+"Timer_Tarefa":"60000"
+},
+{
+"Titulo_Tarefa":"Vídeo YouTube",
+"Descricao_Tarefa":"Assista esse vídeo por 25s e ganhe 250 pontos!",
+"Pontos_Tarefa":"250",
+"Imagem_Tarefa":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png",
+"Id_Tarefa":"446",
+"Link_Tarefa":"https://youtu.be/iW51mwEbRsk",
+"Timer_Tarefa":"25000"
 }]
