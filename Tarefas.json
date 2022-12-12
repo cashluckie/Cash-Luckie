@@ -1,8 +1,8 @@
 [{
-"Titulo_Tarefa":"teste",
-"Descricao_Tarefa":"teste",
+"Titulo_Tarefa":"Vídeo YouTube",
+"Descricao_Tarefa":"Assista esse vídeo por 10s e ganhe 100 pontos!",
 "Pontos_Tarefa":"100",
-"Imagem_Tarefa":"img.png",
+"Imagem_Tarefa":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png",
 "Id_Tarefa":"444",
 "Link_Tarefa":"https://youtu.be/iW51mwEbRsk",
 "Timer_Tarefa":"10000"
