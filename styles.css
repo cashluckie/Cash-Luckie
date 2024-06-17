@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.app-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    position: relative; 
+}
+
+.app-title::before {
+    content: ""; 
+    background-image: url("app_icon.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; 
+    vertical-align: middle; 
+    border-radius: 8px;
+}
+
+.app-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.app-images {
+    overflow-x: auto; 
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%; 
+}
+
+
+.image-container {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+
+.app-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .app-images {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.download {
+    text-align: center;
+    padding: 35px 0;
+    background-color: #f2f2f2;
+}
+
+.download-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.download-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.contact-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.legal {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+}
+
+.legal-link {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.img {
+    width: 100px; /* Largura fixa das imagens */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    margin: 10px;
+}
+
